@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    padding: 0;
+}
+
+.banner h2 {
+    visibility: hidden;
+}
+
+.moon-mobile {
+    width: 60%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 40px 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.catergories {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.catergories img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.top-content {
+    display: flex;
+    justify-content: center;
+}
+
+.who-we-are {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 30px;
+    text-align: center;
+}
+
+.sbc {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 100%;
+    background-color: rgba(228, 173, 230, 0.192);
+    padding: 10px;
+}
+
+.who {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    width: 100%;
+    background-color: rgba(173, 216, 230, 0.192);
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+    margin: 0;
+}
+
+.form {
+    position: absolute;
+    padding: 100px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin: 20px;
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+    .catergories {
+        display: block;
+    }
+    .catergories img {
+        width: 100%;
+    }
+    .catergories h3 {
+        position: absolute;
+        background-color: white;
+        border: 2px solid grey;
+        padding: 10px;
+    }
+    .who-we-are p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .form {
+        position: relative;
+    }
+    .form h2 {
+        font-family: 'Raleway';
+        font-weight: 200;
+        padding: 10px;
+    }
+    .newsban {
+        display: none
+    }
+    .banner h2 {
+        visibility: visible;
+    }
+}
+
+@media (max-width: 580px) {
+    .moon-mobile {
+        width: 120%
+    }
+}
